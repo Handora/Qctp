@@ -1,0 +1,9 @@
+#!/home/handora/Documents/15-441-project1/src/15-441-project-1/flask_env/bin/python2
+# EASY-INSTALL-ENTRY-SCRIPT: 'Flask==0.12.2','console_scripts','flask'
+__requires__ = 'Flask==0.12.2'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('Flask==0.12.2', 'console_scripts', 'flask')()
+)
