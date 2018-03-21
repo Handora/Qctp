@@ -1,24 +1,3 @@
-/******************************************************************************
-* pool.c                                                                      *
-*                                                                             *
-* Description: This function is used by Liso to take use of SELECT and use if *
-* to take concurrency in action.                                              *
-TODO: NOT COMPLETED
-*    1. Handle creation of a log file as specified in the "project handout.“  *
-*    2. Make API functions for formatted (up to you; we may specify this      *
-*       later) writing to this log file (not thread-safe).                    *
-*    3. Make an API function for gracefully closing this log file.            *
-*    4. Expose and use this module/API within the Checkpoints instead of      *
-*       using stderr or stdout.                                               *
-*    5. Log IP addresses and browser information/settings as coming from      *
-*       connected clients.                                                    *
-*    6. Log all errors encountered to the log file.                           *
-*                                                                             *
-* Authors: QianChen <qcdsr970209@gmail.edu>                                   *
-*                                                                             *
-*******************************************************************************/
-
-
 #include "pool.h"
 #include "qio.h"
 #include "loog.h"
