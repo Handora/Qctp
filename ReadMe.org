@@ -1,0 +1,9 @@
+* QCTP
+** TODO
+- Change the architecture
+- Add Unit tests
+- Add supports for thread pools
+- Add supports for fast CGI
+- Change =select= with =epoll=
+- Add Cmake for project
+- refactor
