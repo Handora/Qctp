@@ -1,9 +1,22 @@
 * QCTP
+** Introduction
+This project is a simple part of implementation of =HTTP/1.1= web
+server.   
+
+** Supported feature
+- GET, POST, HEAD
+- HTTP/1.1
+- long connection
+- CGI
+- HTTPS
+- select based event-driving model
+
 ** TODO
-- Change the architecture
-- Add Unit tests
-- Add supports for thread pools
-- Add supports for fast CGI
-- Change =select= with =epoll=
-- Add Cmake for project
-- refactor
+Change the architecture [1/7]
+- [ ] Add Unit tests such as =check= based tests
+- [ ] Add supports for thread pools
+- [ ] Add supports for fast CGI
+- [ ] Change =select= with =epoll=
+- [X] Add Cmake for project
+- [ ] Refactor
+- [ ] Add support for security
