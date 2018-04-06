@@ -128,6 +128,7 @@ send_CGI(int i) {
     close(stdout_pipe[0]);
     close(stdout_pipe[1]);
 
+    sprintf(errorMessage, "args[0]: %s", ARGS[0]);
     if (execve(ARGS[0], ARGS, EVRN)) {
       sprintf(errorMessage, "execve error %s", strerror(errno));
       loog(errorMessage);

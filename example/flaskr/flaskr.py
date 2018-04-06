@@ -1,4 +1,4 @@
-#!flask_env/bin/python2
+#!../example/flask_env/bin/python2
 
 # all the imports
 import sqlite3
