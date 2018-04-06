@@ -3,3 +3,4 @@ flask_env
 *.crt
 *.key
 *~
+build

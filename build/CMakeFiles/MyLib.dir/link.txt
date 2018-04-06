@@ -1,2 +1,0 @@
-/usr/bin/ar qc lib/libMyLib.a  CMakeFiles/MyLib.dir/src/parser/parser.tab.c.o CMakeFiles/MyLib.dir/src/parser/lexer.c.o
-/usr/bin/ranlib lib/libMyLib.a

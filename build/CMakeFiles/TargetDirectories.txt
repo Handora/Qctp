@@ -1,3 +1,0 @@
-/home/handora/QCTP/build/CMakeFiles/rebuild_cache.dir
-/home/handora/QCTP/build/CMakeFiles/qctp.dir
-/home/handora/QCTP/build/CMakeFiles/edit_cache.dir
