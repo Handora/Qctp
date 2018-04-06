@@ -2,3 +2,4 @@
 flask_env
 *.crt
 *.key
+*~

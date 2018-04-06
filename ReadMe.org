@@ -11,8 +11,8 @@ server.
 - HTTPS
 - select based event-driving model
 
-** TODO
-Change the architecture [1/7]
+** TODOS
+*** Change the architecture [1/7]
 - [ ] Add Unit tests such as =check= based tests
 - [ ] Add supports for thread pools
 - [ ] Add supports for fast CGI
